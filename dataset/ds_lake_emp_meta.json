@@ -1,5 +1,5 @@
 {
-	"name": "ds_lake_files",
+	"name": "ds_lake_emp_meta",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -19,15 +19,6 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "Id",
-				"type": "String"
-			},
-			{
-				"name": "Sales",
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }
