@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "hyd.csv",
+				"fileName": "emphyd.txt",
+				"folderPath": "dataem",
 				"fileSystem": "in-files"
 			},
 			"columnDelimiter": ",",
